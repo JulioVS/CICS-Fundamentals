@@ -13,5 +13,6 @@
                 FROM (WS-TEXT)
                 ERASE
                 END-EXEC.
+                
            EXEC CICS RETURN
                 END-EXEC.
