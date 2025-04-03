@@ -10,11 +10,11 @@ propertyGroups:
         type: local
         locations:
           - './COPYLIB'
-      - name: MYLIB
+      - name: mylib
         type: mvs
         locations:
           - 'Z45864.COPYLIB'
-      - name: SYSLIB
+      - name: syslib
         type: mvs
         locations:
           - 'DFH620.CICS.SDFHCOB'
@@ -25,7 +25,7 @@ propertyGroups:
         type: local
         locations:
           - './PROCLIB'
-      - name: SYSLIB
+      - name: syslib
         type: mvs
         locations:
           - 'VENDOR.PROCLIB'
