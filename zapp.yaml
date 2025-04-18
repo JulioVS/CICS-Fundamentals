@@ -10,23 +10,16 @@ propertyGroups:
         type: local
         locations:
           - './COPYLIB'
-      - name: mylib
-        type: mvs
-        locations:
-          - 'Z45864.COPYLIB'
       - name: syslib
         type: mvs
         locations:
           - 'DFH620.CICS.SDFHCOB'
+          - 'Z45864.COPYLIB'
   - name: jcl-proclibs
     language: jcl
     libraries:
       - name: proclib
-        type: local
-        locations:
-          - './PROCLIB'
-      - name: syslib
         type: mvs
         locations:
-          - 'VENDOR.PROCLIB'
           - 'DFH620.CICS.SDFHPROC'
+          - 'VENDOR.PROCLIB'
